@@ -1,0 +1,195 @@
+/* Page d'accueil */ 
+body {
+    display: grid;
+    grid-template-columns: 6.5% 93.5%;
+    grid-template-rows: 5% 95%;
+    height: 930px;
+    margin: 0%;
+    padding: 0%;
+}
+ 
+#barre_du_haut,#options {
+    background-color: rgb(204, 204, 211);
+    border: 1px solid rgb(63, 63, 63);
+}
+
+#barre_du_haut {
+    grid-row: 1;
+    grid-column: 1 / span2;
+}
+
+#options {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#dessin {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid rgb(63, 63, 63);
+    height:auto ;
+}
+
+/* Bande contenant les options de dessin */ 
+#texte_et_formes {
+    margin-top: 30%;
+    justify-items: center;
+    padding: 5%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+ 
+
+#contour_et_remplissage {
+    margin-top: 50%;
+    justify-items: center;
+    padding: 5%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+
+#size {
+    margin-top: 10%;
+    justify-items: center;
+    padding: 5%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: xx-large;
+ 
+}
+
+#contour_et_remplissage > p {
+    padding: 5%;
+    grid-row: 3;
+
+}
+img {
+    align-self: center;
+    height:25px;
+    width: 25px;
+}
+
+input {
+    margin: 1%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+input:hover {
+    margin: 1%;
+    background-color: rgb(219, 218, 218);
+    border: 1px solid black;
+}
+
+img:hover {
+    border: 2px inset rgb(80, 80, 80);
+    background-color:rgb(116, 114, 114) ;
+    align-self: center;
+    height:25px;
+    width: 25px;
+}
+
+p:hover {
+    border: 2px inset rgb(80, 80, 80);
+    background-color:rgb(116, 114, 114) ;
+    text-align: center;
+    height:40px;
+    width: 40px;
+}
+
+
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 2px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    left: 10;
+}
+
+
+.Georgia{  
+    font-family: Georgia;
+}
+
+.Arial{
+    font-family: Arial;
+}
+
+.Franklin_Gothic_Medium{
+    font-family: 'Franklin Gothic Medium';
+}
+
+ #dessin > *{
+    margin: 1%;
+}
+
+#polygon {
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 950px) { 
+ 
+ 
+    #texte_et_formes {
+        
+        justify-items: center;
+        padding: 5%;
+        height: 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        row-gap: 5px;
+ 
+    }
+     
+    
+    #contour_et_remplissage {
+        margin-top: 150%;
+        justify-items: center;
+        padding: 5%;
+        height: 10%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        row-gap: 5px;
+    }
+    
+    #size {
+        margin-top: 150%;
+        justify-items: center;
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        font-size: large;
+        font-weight: bolder;
+     
+    }
+    p:hover {
+        border: 2px inset rgb(80, 80, 80);
+        background-color:rgb(116, 114, 114) ;
+        text-align: center;
+        height:25px;
+        width: 25px;
+    }
+     
+}
