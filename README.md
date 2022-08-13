@@ -5,7 +5,6 @@ Application similaire à Paint, provisoire
 ![paint](https://user-images.githubusercontent.com/92720413/161429832-33317529-a373-43e2-816a-1b3be9b7b6de.png)
 
 
-
 Bonjour à vous,
 
 Laissez moi vous expliquer le fonctionnement de l'application. 
@@ -41,7 +40,7 @@ Charge d'un dessin :
 Si vous voulez récuprer votre dessin afin de le terminer, il est obligatoire de rentrer son nom dans l'input. 
 Suite à cela, vous pouvez cliquer sur 'Envoyer' afin de le récuperer.
 
-Le dossier 'export' est la trace d'un essai d'exporter les dessins.
+Le dossier "export" est la trace d'un essai d'exporter les dessins.
 
 N'hésitez pas à rafraichir la page en cas de quelconque problème.
 
